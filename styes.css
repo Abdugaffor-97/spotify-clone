@@ -67,11 +67,15 @@ nav li a:hover {
     box-shadow: 0 0 2px;
 }
 
+.card:target {
+    box-shadow: 0 0 2px;
+    border: 1px solid #2c3e50;
+}
+
 /* all images */
 .card img {
     width: 100%;
     height: 100%;
-
 }
 
 .ol-li.active {
@@ -88,23 +92,22 @@ nav li a:hover {
 }
 
 /* left hand sidebar */
-.sidebar-wrapper {
-    z-index: 1;
-    position: absolute;
-    width: 0;
-    height: 100%;
-    overflow-y: hidden;
-    background: #2c3e50;
-    border-top: 1px solid red;
-    opacity: 0.9;
-}
-
-#wrapper.menuDisplayed #page-content-wrapper {
-    padding-left: 250px;
-}
 
 /* sidebar */
 .sidebar-nav {
     padding: 0;
     list-style: none;
+}
+
+.player {
+    position: fixed;
+    bottom: 0;
+    /* height: 60px; */
+    width: 100%;
+    background-color: #525151;
+    color: white;
+}
+
+.player i:hover {
+    color: #aaa6a6;
 }
