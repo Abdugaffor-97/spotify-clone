@@ -179,7 +179,7 @@
         function check(form) {
 
             if ((form.userid.value.toLowerCase() === "admin") && form.password.value.toLowerCase() === "admin") {
-                window.open("Login.html")
+                window.location.replace("../home.html")
             } else {
                 alert("Wrong Username and/or Password")
             }

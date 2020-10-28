@@ -81,6 +81,28 @@ body {
         padding-left: 280px;
         padding-right: 30px;
     }
+
+.left-nav li {
+    list-style: none;
+    line-height: 30px;
+}
+.left-nav li a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.left-nav input {
+    display: none;
+}
+
+
+.left-nav a {
+    width: 150px;
+}
+
+.left-nav div div:last-child {
+    position: absolute;
+    bottom: 10px;
 }
 
 /* end of left hand side navbar */
