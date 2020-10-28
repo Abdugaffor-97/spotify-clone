@@ -18,13 +18,11 @@
 
 
     <!-- sidebar -->
-    <nav class='left-nav'>
-        <input type="checkbox" id="check" />
-        <label for="check" class="checkbtn text-white">
-            <i class="fab fa-spotify fa-2x my-3 mx-2"></i> <span>Spotify</span>
-        </label>
 
+
+    <nav class='left-nav'>
         <div class=''>
+            <a href="home.html"><i class="text-white fab fa-spotify fa-2x my-3 mx-2"> Spotify</i></a>
             <div>
                 <ul>
                     <li>
@@ -47,11 +45,13 @@
             <div>
                 <ul class='text-center p-0 mb-5 pb-5'>
                     <li>
-                        <a href="Login/Login.html" class='btn btn-primary my-2 rounded-pill bg-light text-dark ml-2'>SIGN UP</a>
+                        <a href="Login/Login.html"
+                            class='btn btn-primary my-2 rounded-pill bg-light text-dark ml-2'>SIGN UP</a>
                         <i class="fas fa-user-plus d-none"></i>
                     </li>
                     <li>
-                        <a href="Login/Login.html" class='btn btn-dark my-2 rounded-pill bg-light text-dark ml-2'>LOGIN</a>
+                        <a href="Login/Login.html"
+                            class='btn btn-dark my-2 rounded-pill bg-light text-dark ml-2'>LOGIN</a>
                         <i class="fas fa-sign-in-alt d-none"></i>
 
                     </li>
@@ -60,6 +60,35 @@
                 </ul>
             </div>
         </div>
+    </nav>
+
+
+    <!-- When the user's screen smaller than 767px display this navbar -->
+    <nav class='small-screen d-none'>
+        <div>
+            <a href="home.html"><i class="pl-0 text-white fab fa-spotify fa-3x my-3 mx-2"></i></a>
+            <ul>
+                <li>
+                    <a class="page1 active"><i class="text-white fas fa-home fa-2x"></i></a>
+                </li>
+                <li>
+                    <a class="page2" data-page="page2">
+                        <i class="text-white fas fa-search fa-2x"></i></a>
+                </li>
+                <li>
+                    <a><i class="text-white fas fa-stream fa-2x"></i></a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <ul class=''>
+                <li>
+                    <a href="Login/Login.html"><i class="text-white fas fa-user-plus fa-2x"></i></a>
+                </li>
+                <li>
+                    <a href="Login/Login.html"><i class="text-white fas fa-sign-in-alt fa-2x"></i></a>
+                </li>
+            </ul>
         </div>
     </nav>
 
