@@ -28,7 +28,7 @@ body {
     display: none;
 }
 
-.left-nav button {
+.left-nav a {
     width: 150px;
 }
 
