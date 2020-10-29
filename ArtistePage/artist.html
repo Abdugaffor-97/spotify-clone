@@ -32,8 +32,10 @@
             <span>33,000,675 MONTHLY LISTENERS<br></span>
             <h1>Queen</h1>
             <div class="buttonWrapper d-flex flex-row justify-content-center align-items-center w-100">
-                <button class="m-2" onclick="">Play</button>
-                <button class="m-2" onclick="">Follow</button>
+                <button class="m-2" id="playBtn">Play</button>
+                <button class="m-2 d-none" id="pauseBtn">Pause</button>
+                <button class="m-2" id="followBtn">Follow</button>
+                <button class="m-2 d-none" id="unFollowBtn">Unfollow</button>
                 <a class="m-2"><i class="fa fa-ellipsis-h"></i></a>
             </div>
             <div class="d-flex flex-row justify-content-center align-items-center w-100">
@@ -270,7 +272,8 @@
                         </a>
                     </li>
                     <li>
-                        <a class="page2" data-page="page2" href="../Album Page/Album.html">
+                        <a style='color:#FFFFFF; text-decoration:none; padding-left: 10px;' data-page="page2"
+                            href="../Album Page/Album.html">
                             <i class="fas fa-compact-disc"></i> Albums
                         </a>
                     </li>
@@ -361,6 +364,7 @@
 
     </footer>
 
+    <script src="../main.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
