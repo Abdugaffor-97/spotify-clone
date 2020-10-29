@@ -85,7 +85,7 @@ body {
     margin-left: 1px;
 }
 
-.left-nav ul li:hover {
+.left-nav ul li:hover i{
     border-left: 2px solid rgb(0, 247, 0);
     padding-left: 2px;
     margin-left: 1px;
