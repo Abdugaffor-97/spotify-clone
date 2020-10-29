@@ -11,7 +11,6 @@
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/8c59db8a18.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/Album Page/Albumcss.css">
-
     <title>Album - Spotify</title>
     <link rel="icon" href="https://accounts.scdn.co/images/favicon.ace4d8543bbb017893402a1e9d1ac1fa.ico">
 </head>
@@ -22,18 +21,56 @@
 
     </div>
 
+
+
+    <!-- When the user's screen smaller than 767px display this navbar -->
+    <nav class='small-screen d-none'>
+        <div>
+            <a href="home.html"><i class="pl-0 text-white fab fa-spotify fa-3x my-3 mx-2"></i></a>
+            <ul>
+                <li>
+                    <a class="page1 active"><i class="text-white fas fa-home fa-2x"></i></a>
+                </li>
+                <li>
+                    <a class="page2" data-page="page2">
+                        <i class="text-white fas fa-search fa-2x"></i></a>
+                </li>
+                <li>
+                    <a><i class="text-white fas fa-stream fa-2x"></i></a>
+                </li>
+
+                <li>
+                    <a class="page2 text-white" data-page="page2" href="ArtistePage/artist.html">
+                        <i class="fas fa-mitten fa-2x"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="page2 text-white fa-2x" data-page="page2" href="Album Page/Album.html">
+                        <i class="fas fa-compact-disc"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <ul class=''>
+                <li>
+                    <a href="Login/Login.html"><i class="text-white fas fa-user-plus fa-2x"></i></a>
+                </li>
+                <li>
+                    <a href="Login/Login.html"><i class="text-white fas fa-sign-in-alt fa-2x"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <!-- sidebar -->
     <nav class='left-nav'>
-        <input type="checkbox" id="check" />
-        <label for="check" class="checkbtn text-white">
-            <i class="fab fa-spotify fa-2x my-3 mx-2"></i> <span>Spotify</span>
-        </label>
+        <a href="../home.html"><i class="text-white fab fa-spotify fa-2x my-3 mx-2"> Spotify</i></a>
 
         <div class=''>
             <div>
                 <ul>
                     <li>
-                        <a class="page1 active" data-page="page1">
+                        <a class="page1 active" data-page="page1" href="../home.html">
                             <i class="fas fa-home"></i> Home
                         </a>
                     </li>
@@ -47,17 +84,22 @@
                             <i class="fas fa-stream"></i> Your library
                         </a>
                     </li>
+                    <li>
+                        <a class="page2" data-page="page2" href="../ArtistePage/artist.html">
+                            <i class="fas fa-mitten"></i> Artists
+                        </a>
+                    </li>
                 </ul>
             </div>
             <div>
                 <ul class='text-center p-0 mb-5 pb-5'>
                     <li>
-                        <a href="Login/Login.html"
+                        <a href="../Login/Login.html"
                             class='btn btn-primary my-2 rounded-pill bg-light text-dark ml-2'>SIGN UP</a>
                         <i class="fas fa-user-plus d-none"></i>
                     </li>
                     <li>
-                        <a href="Login/Login.html"
+                        <a href="../Login/Login.html"
                             class='btn btn-dark my-2 rounded-pill bg-light text-dark ml-2'>LOGIN</a>
                         <i class="fas fa-sign-in-alt d-none"></i>
 
@@ -86,7 +128,9 @@
                     <a href="#" class="list-group-item list-group-item-action">
                         <div class="row-cols-1">
                             <div class="col" style="display: block ruby;">
-                            <i class="fas fa-music"></i><p style="margin-left: 1rem; margin-right: 30rem;">Procession - Remastered 2011</p><p>1:12</p>
+                                <i class="fas fa-music"></i>
+                                <p style="margin-left: 1rem; margin-right: 30rem;">Procession - Remastered 2011</p>
+                                <p>1:12</p>
                             </div>
                             <div class="col">
                                 <p style="margin-left: 2rem;">Queen</p>
@@ -96,7 +140,9 @@
                     <a href="#" class="list-group-item list-group-item-action">
                         <div class="row-cols-1">
                             <div class="col" style="display: block ruby;">
-                            <i class="fas fa-music"></i><p style="margin-left: 1rem; margin-right: 30rem;">Procession - Remastered 2011</p><p>1:12</p>
+                                <i class="fas fa-music"></i>
+                                <p style="margin-left: 1rem; margin-right: 30rem;">Procession - Remastered 2011</p>
+                                <p>1:12</p>
                             </div>
                             <div class="col">
                                 <p style="margin-left: 2rem;">Queen</p>
@@ -106,7 +152,9 @@
                     <a href="#" class="list-group-item list-group-item-action">
                         <div class="row-cols-1">
                             <div class="col" style="display: block ruby;">
-                            <i class="fas fa-music"></i><p style="margin-left: 1rem; margin-right: 30rem;">Procession - Remastered 2011</p><p>1:12</p>
+                                <i class="fas fa-music"></i>
+                                <p style="margin-left: 1rem; margin-right: 30rem;">Procession - Remastered 2011</p>
+                                <p>1:12</p>
                             </div>
                             <div class="col">
                                 <p style="margin-left: 2rem;">Queen</p>
@@ -116,7 +164,9 @@
                     <a href="#" class="list-group-item list-group-item-action">
                         <div class="row-cols-1">
                             <div class="col" style="display: block ruby;">
-                            <i class="fas fa-music"></i><p style="margin-left: 1rem; margin-right: 30rem;">Procession - Remastered 2011</p><p>1:12</p>
+                                <i class="fas fa-music"></i>
+                                <p style="margin-left: 1rem; margin-right: 30rem;">Procession - Remastered 2011</p>
+                                <p>1:12</p>
                             </div>
                             <div class="col">
                                 <p style="margin-left: 2rem;">Queen</p>
@@ -126,7 +176,9 @@
                     <a href="#" class="list-group-item list-group-item-action">
                         <div class="row-cols-1">
                             <div class="col" style="display: block ruby;">
-                            <i class="fas fa-music"></i><p style="margin-left: 1rem; margin-right: 30rem;">Procession - Remastered 2011</p><p>1:12</p>
+                                <i class="fas fa-music"></i>
+                                <p style="margin-left: 1rem; margin-right: 30rem;">Procession - Remastered 2011</p>
+                                <p>1:12</p>
                             </div>
                             <div class="col">
                                 <p style="margin-left: 2rem;">Queen</p>
@@ -136,7 +188,9 @@
                     <a href="#" class="list-group-item list-group-item-action">
                         <div class="row-cols-1">
                             <div class="col" style="display: block ruby;">
-                            <i class="fas fa-music"></i><p style="margin-left: 1rem; margin-right: 30rem;">Procession - Remastered 2011</p><p>1:12</p>
+                                <i class="fas fa-music"></i>
+                                <p style="margin-left: 1rem; margin-right: 30rem;">Procession - Remastered 2011</p>
+                                <p>1:12</p>
                             </div>
                             <div class="col">
                                 <p style="margin-left: 2rem;">Queen</p>
@@ -146,7 +200,9 @@
                     <a href="#" class="list-group-item list-group-item-action">
                         <div class="row-cols-1">
                             <div class="col" style="display: block ruby;">
-                            <i class="fas fa-music"></i><p style="margin-left: 1rem; margin-right: 30rem;">Procession - Remastered 2011</p><p>1:12</p>
+                                <i class="fas fa-music"></i>
+                                <p style="margin-left: 1rem; margin-right: 30rem;">Procession - Remastered 2011</p>
+                                <p>1:12</p>
                             </div>
                             <div class="col">
                                 <p style="margin-left: 2rem;">Queen</p>
@@ -156,7 +212,9 @@
                     <a href="#" class="list-group-item list-group-item-action">
                         <div class="row-cols-1">
                             <div class="col" style="display: block ruby;">
-                            <i class="fas fa-music"></i><p style="margin-left: 1rem; margin-right: 30rem;">Procession - Remastered 2011</p><p>1:12</p>
+                                <i class="fas fa-music"></i>
+                                <p style="margin-left: 1rem; margin-right: 30rem;">Procession - Remastered 2011</p>
+                                <p>1:12</p>
                             </div>
                             <div class="col">
                                 <p style="margin-left: 2rem;">Queen</p>
@@ -166,7 +224,9 @@
                     <a href="#" class="list-group-item list-group-item-action">
                         <div class="row-cols-1">
                             <div class="col" style="display: block ruby;">
-                            <i class="fas fa-music"></i><p style="margin-left: 1rem; margin-right: 30rem;">Procession - Remastered 2011</p><p>1:12</p>
+                                <i class="fas fa-music"></i>
+                                <p style="margin-left: 1rem; margin-right: 30rem;">Procession - Remastered 2011</p>
+                                <p>1:12</p>
                             </div>
                             <div class="col">
                                 <p style="margin-left: 2rem;">Queen</p>
@@ -176,7 +236,9 @@
                     <a href="#" class="list-group-item list-group-item-action">
                         <div class="row-cols-1">
                             <div class="col" style="display: block ruby;">
-                            <i class="fas fa-music"></i><p style="margin-left: 1rem; margin-right: 30rem;">Procession - Remastered 2011</p><p>1:12</p>
+                                <i class="fas fa-music"></i>
+                                <p style="margin-left: 1rem; margin-right: 30rem;">Procession - Remastered 2011</p>
+                                <p>1:12</p>
                             </div>
                             <div class="col">
                                 <p style="margin-left: 2rem;">Queen</p>
@@ -186,7 +248,9 @@
                     <a href="#" class="list-group-item list-group-item-action">
                         <div class="row-cols-1">
                             <div class="col" style="display: block ruby;">
-                            <i class="fas fa-music"></i><p style="margin-left: 1rem; margin-right: 30rem;">Procession - Remastered 2011</p><p>1:12</p>
+                                <i class="fas fa-music"></i>
+                                <p style="margin-left: 1rem; margin-right: 30rem;">Procession - Remastered 2011</p>
+                                <p>1:12</p>
                             </div>
                             <div class="col">
                                 <p style="margin-left: 2rem;">Queen</p>
@@ -208,7 +272,7 @@
 
 
     <!-- Player -->
-    <div class="player">
+    <div class="player" style='z-index: 1'>
 
         <div class="row">
             <div class="col-4 mt-2 d-flex">
@@ -216,7 +280,8 @@
                     style="max-width: 90%; height: 50px; background-color:#525151; box-shadow:none">
                     <div class="row no-gutters">
                         <div class="col-md-4">
-                            <img src="images/singer9.jpeg" class="card-img" alt="..." style='width:100%; height:50px'>
+                            <img src="../images/singer9.jpeg" class="card-img" alt="..."
+                                style='width:100%; height:50px'>
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
