@@ -94,6 +94,11 @@
                             <i class="fas fa-compact-disc"></i> Albums
                         </a>
                     </li>
+                    <li class=''>
+                        <a class="page2">
+                            <i class="fas fa-plus"> Add song</i>
+                        </a>
+                    </li>
                 </ul>
             </div>
             <div>
@@ -122,170 +127,176 @@
         <div class="row mt-5 mb-3 row-cols-1 row-cols-sm-2" style="display: inline-flex; height: 900px; width: 2000px;">
             <div class="col mr-5 ml-0
             " style="max-width: 250px;">
-                <a href="#"><img src="/Album Page/71MOteKQofL._SX522_.jpg"
+                <a href="#"><img id="main-img" src="/Album Page/71MOteKQofL._SX522_.jpg"
                         style="max-width: 250px; max-height: 250px;"></a>
                 <div style="text-align: center;">
-                    <strong style="font-size: x-large;">QUEEN II (DELUXE EDITION REMASTERED)</strong>
+                    <strong style="font-size: large;">QUEEN II (DELUXE EDITION REMASTERED)</strong>
                     <p style="color: grey;">Queen</p>
-                    <button type="button" class="btn btn-success mt-4 mb-2"
-                        style="width: 130px; border-radius: 20px;">Play</button>
+                    <button type="button" class="btn btn-success mt-4 mb-2" style="width: 130px; border-radius: 20px;"
+                        id="playBtn">Play</button>
+                    <button type="button" class="btn btn-success mt-4 mb-2 d-none"
+                        style="width: 130px; border-radius: 20px;" id="pauseBtn">Pause</button>
+
                     <p>1974 • 16 Songs</p>
                 </div>
             </div>
             <div class="col mb-3">
-                <div class="list-group list-group-flush mb-3">
-                    <a href="#" class="list-group-item list-group-item-action">
-                        <div class="row-cols-1">
-                            <div class="col" style="display: block ruby;">
-                                <i class="fas fa-music"></i>
-                                <p style="margin-left: 1rem; margin-right: 31.3rem;">Procession - Remastered 2011</p>
-                                <p>1:13</p>
+                <div style='height: 450px; overflow-x: hidden; overflow-y: auto; text-align:justify;'>
+                    <div class="list-group list-group-flush mb-3">
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="row-cols-1">
+                                <div class="col" style="display: block ruby;">
+                                    <i class="fas fa-music"></i>
+                                    <p style="margin-left: 1rem; margin-right: 31.3rem;">Procession - Remastered 2011
+                                    </p>
+                                    <p>1:13</p>
+                                </div>
+                                <div class="col">
+                                    <p style="margin-left: 2rem;">Queen</p>
+                                </div>
                             </div>
-                            <div class="col">
-                                <p style="margin-left: 2rem;">Queen</p>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="row-cols-1">
+                                <div class="col" style="display: block ruby;">
+                                    <i class="fas fa-music"></i>
+                                    <p style="margin-left: 1rem; margin-right: 30rem;">Father To Son - Remastered 2011
+                                    </p>
+                                    <p>6:13</p>
+                                </div>
+                                <div class="col">
+                                    <p style="margin-left: 2rem;">Queen</p>
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                    <a href="#" class="list-group-item list-group-item-action">
-                        <div class="row-cols-1">
-                            <div class="col" style="display: block ruby;">
-                                <i class="fas fa-music"></i>
-                                <p style="margin-left: 1rem; margin-right: 30rem;">Father To Son - Remastered 2011</p>
-                                <p>6:13</p>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="row-cols-1">
+                                <div class="col" style="display: block ruby;">
+                                    <i class="fas fa-music"></i>
+                                    <p style="margin-left: 1rem; margin-right: 24.3rem;">White Queen (As It Began) -
+                                        Remastered 2011</p>
+                                    <p>4:33</p>
+                                </div>
+                                <div class="col">
+                                    <p style="margin-left: 2rem;">Queen</p>
+                                </div>
                             </div>
-                            <div class="col">
-                                <p style="margin-left: 2rem;">Queen</p>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="row-cols-1">
+                                <div class="col" style="display: block ruby;">
+                                    <i class="fas fa-music"></i>
+                                    <p style="margin-left: 1rem; margin-right: 27.4rem;">Some Day One Day - Remastered
+                                        2011
+                                    </p>
+                                    <p>4:22</p>
+                                </div>
+                                <div class="col">
+                                    <p style="margin-left: 2rem;">Queen</p>
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                    <a href="#" class="list-group-item list-group-item-action">
-                        <div class="row-cols-1">
-                            <div class="col" style="display: block ruby;">
-                                <i class="fas fa-music"></i>
-                                <p style="margin-left: 1rem; margin-right: 24.3rem;">White Queen (As It Began) -
-                                    Remastered 2011</p>
-                                <p>4:33</p>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="row-cols-1">
+                                <div class="col" style="display: block ruby;">
+                                    <i class="fas fa-music"></i>
+                                    <p style="margin-left: 1rem; margin-right: 26.8rem;">The Loser In The End -
+                                        Remastered
+                                        2011</p>
+                                    <p>4:01</p>
+                                </div>
+                                <div class="col">
+                                    <p style="margin-left: 2rem;">Queen</p>
+                                </div>
                             </div>
-                            <div class="col">
-                                <p style="margin-left: 2rem;">Queen</p>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="row-cols-1">
+                                <div class="col" style="display: block ruby;">
+                                    <i class="fas fa-music"></i>
+                                    <p style="margin-left: 1rem; margin-right: 31rem;">Ogre Battle - Remastered 2011</p>
+                                    <p>4:08</p>
+                                </div>
+                                <div class="col">
+                                    <p style="margin-left: 2rem;">Queen</p>
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                    <a href="#" class="list-group-item list-group-item-action">
-                        <div class="row-cols-1">
-                            <div class="col" style="display: block ruby;">
-                                <i class="fas fa-music"></i>
-                                <p style="margin-left: 1rem; margin-right: 27.4rem;">Some Day One Day - Remastered 2011
-                                </p>
-                                <p>4:22</p>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="row-cols-1">
+                                <div class="col" style="display: block ruby;">
+                                    <i class="fas fa-music"></i>
+                                    <p style="margin-left: 1rem; margin-right: 22.4rem;">The Fairy Teller's Master
+                                        Stroke -
+                                        Remastered 2011</p>
+                                    <p>2:40</p>
+                                </div>
+                                <div class="col">
+                                    <p style="margin-left: 2rem;">Queen</p>
+                                </div>
                             </div>
-                            <div class="col">
-                                <p style="margin-left: 2rem;">Queen</p>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="row-cols-1">
+                                <div class="col" style="display: block ruby;">
+                                    <i class="fas fa-music"></i>
+                                    <p style="margin-left: 1rem; margin-right: 31rem;">Nevermore - Remastered 2011</p>
+                                    <p>1:18</p>
+                                </div>
+                                <div class="col">
+                                    <p style="margin-left: 2rem;">Queen</p>
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                    <a href="#" class="list-group-item list-group-item-action">
-                        <div class="row-cols-1">
-                            <div class="col" style="display: block ruby;">
-                                <i class="fas fa-music"></i>
-                                <p style="margin-left: 1rem; margin-right: 26.8rem;">The Loser In The End - Remastered
-                                    2011</p>
-                                <p>4:01</p>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="row-cols-1">
+                                <div class="col" style="display: block ruby;">
+                                    <i class="fas fa-music"></i>
+                                    <p style="margin-left: 1rem; margin-right: 22.3rem;">The March Of The Black Queen -
+                                        Remastered 2011</p>
+                                    <p>6:32</p>
+                                </div>
+                                <div class="col">
+                                    <p style="margin-left: 2rem;">Queen</p>
+                                </div>
                             </div>
-                            <div class="col">
-                                <p style="margin-left: 2rem;">Queen</p>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="row-cols-1">
+                                <div class="col" style="display: block ruby;">
+                                    <i class="fas fa-music"></i>
+                                    <p style="margin-left: 1rem; margin-right: 27.6rem;">Funny How Love Is - Remastered
+                                        2011
+                                    </p>
+                                    <p>2:49</p>
+                                </div>
+                                <div class="col">
+                                    <p style="margin-left: 2rem;">Queen</p>
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                    <a href="#" class="list-group-item list-group-item-action">
-                        <div class="row-cols-1">
-                            <div class="col" style="display: block ruby;">
-                                <i class="fas fa-music"></i>
-                                <p style="margin-left: 1rem; margin-right: 31rem;">Ogre Battle - Remastered 2011</p>
-                                <p>4:08</p>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="row-cols-1">
+                                <div class="col" style="display: block ruby;">
+                                    <i class="fas fa-music"></i>
+                                    <p style="margin-left: 1rem; margin-right: 27.5rem;">Seven Seas of Rhye - Remastered
+                                        2011</p>
+                                    <p>2:48</p>
+                                </div>
+                                <div class="col">
+                                    <p style="margin-left: 2rem;">Queen</p>
+                                </div>
                             </div>
-                            <div class="col">
-                                <p style="margin-left: 2rem;">Queen</p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#" class="list-group-item list-group-item-action">
-                        <div class="row-cols-1">
-                            <div class="col" style="display: block ruby;">
-                                <i class="fas fa-music"></i>
-                                <p style="margin-left: 1rem; margin-right: 22.4rem;">The Fairy Teller's Master Stroke -
-                                    Remastered 2011</p>
-                                <p>2:40</p>
-                            </div>
-                            <div class="col">
-                                <p style="margin-left: 2rem;">Queen</p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#" class="list-group-item list-group-item-action">
-                        <div class="row-cols-1">
-                            <div class="col" style="display: block ruby;">
-                                <i class="fas fa-music"></i>
-                                <p style="margin-left: 1rem; margin-right: 31rem;">Nevermore - Remastered 2011</p>
-                                <p>1:18</p>
-                            </div>
-                            <div class="col">
-                                <p style="margin-left: 2rem;">Queen</p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#" class="list-group-item list-group-item-action">
-                        <div class="row-cols-1">
-                            <div class="col" style="display: block ruby;">
-                                <i class="fas fa-music"></i>
-                                <p style="margin-left: 1rem; margin-right: 22.3rem;">The March Of The Black Queen -
-                                    Remastered 2011</p>
-                                <p>6:32</p>
-                            </div>
-                            <div class="col">
-                                <p style="margin-left: 2rem;">Queen</p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#" class="list-group-item list-group-item-action">
-                        <div class="row-cols-1">
-                            <div class="col" style="display: block ruby;">
-                                <i class="fas fa-music"></i>
-                                <p style="margin-left: 1rem; margin-right: 27.6rem;">Funny How Love Is - Remastered 2011
-                                </p>
-                                <p>2:49</p>
-                            </div>
-                            <div class="col">
-                                <p style="margin-left: 2rem;">Queen</p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#" class="list-group-item list-group-item-action">
-                        <div class="row-cols-1">
-                            <div class="col" style="display: block ruby;">
-                                <i class="fas fa-music"></i>
-                                <p style="margin-left: 1rem; margin-right: 27.5rem;">Seven Seas of Rhye - Remastered
-                                    2011</p>
-                                <p>2:48</p>
-                            </div>
-                            <div class="col">
-                                <p style="margin-left: 2rem;">Queen</p>
-                            </div>
-                        </div>
-                    </a>
+                        </a>
+                    </div>
                 </div>
+
             </div>
         </div>
 
     </div>
 
-
-
     <!--End Site -->
-
-
-
-
 
     <!-- Player -->
     <div class="player" style='z-index: 1'>
@@ -345,6 +356,8 @@
     </div>
     <!-- End of Player -->
 
+
+    <script src="../main.js"></script>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
