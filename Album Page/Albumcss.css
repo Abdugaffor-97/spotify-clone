@@ -97,6 +97,19 @@ body {
     }
 }
 
+.left-border-green {
+    border-left: 2px solid rgb(0, 247, 0);
+    padding-left: 2px;
+    margin-left: 1px;
+}
+
+.left-nav ul li:hover {
+    border-left: 2px solid rgb(0, 247, 0);
+    padding-left: 2px;
+    margin-left: 1px;
+    transition: 0.14s;
+}
+
 /* Right hand navbar */
 .left-nav {
     position: fixed;
