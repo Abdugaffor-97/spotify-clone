@@ -1,6 +1,7 @@
 
 body {
     background: linear-gradient(to left top, black, rgb(39, 39, 39)) fixed;
+    color:white
   }
 .list-group-item{
     background: transparent;
@@ -147,4 +148,11 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
 	background-color: #181818;
 	width: 100%;
 	z-index: 4;
+}
+
+.list-group-item-action:focus, .list-group-item-action:hover {
+	z-index: 1;
+	color: #fff;
+	text-decoration: none;
+	background-color: #36363745;
 }
