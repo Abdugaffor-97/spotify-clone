@@ -64,10 +64,6 @@ body {
         cursor: pointer;
     }
 
-    .left-nav input {
-        display: none;
-    }
-
     .left-nav a {
         width: 150px;
     }
