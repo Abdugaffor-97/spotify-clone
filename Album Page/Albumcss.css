@@ -1,9 +1,9 @@
 body {
     background: linear-gradient(to left top, black, rgb(39, 39, 39)) fixed;
-    color:white;
+    color: white;
     overflow-x: hidden;
-  }
-.list-group-item{
+}
+.list-group-item {
     background: transparent;
     color: white;
 }
@@ -99,6 +99,19 @@ body {
     }
 }
 
+.left-border-green {
+    border-left: 2px solid rgb(0, 247, 0);
+    padding-left: 2px;
+    margin-left: 1px;
+}
+
+.left-nav ul li:hover i {
+    border-left: 2px solid rgb(0, 247, 0);
+    padding-left: 2px;
+    margin-left: 1px;
+    transition: 0.14s;
+}
+
 /* Right hand navbar */
 .left-nav {
     position: fixed;
@@ -182,7 +195,7 @@ nav li a:hover {
     bottom: 0;
     /* height: 60px; */
     width: 100%;
-    background-color: #525151;
+    background-color: #282828;
     color: white;
 }
 
@@ -301,9 +314,10 @@ video {
     width: 100%;
     z-index: 4;
 }
-.list-group-item-action:focus, .list-group-item-action:hover {
-	z-index: 1;
-	color: #fff;
-	text-decoration: none;
-	background-color: #36363745;
+.list-group-item-action:focus,
+.list-group-item-action:hover {
+    z-index: 1;
+    color: #fff;
+    text-decoration: none;
+    background-color: #36363745;
 }
