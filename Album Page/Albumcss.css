@@ -2,6 +2,7 @@ body {
     background: linear-gradient(to left top, black, rgb(39, 39, 39)) fixed;
     color: white;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 .list-group-item {
     background: transparent;
