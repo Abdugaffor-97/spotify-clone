@@ -190,3 +190,6 @@ nav li a:hover {
 .player i:hover {
     color: #aaa6a6;
 }
+.text-center{
+    font-weight: bold;
+}
